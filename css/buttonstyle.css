@@ -1,0 +1,37 @@
+.BUTTON_QYF {
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    height: 0;
+    width: fit-content;
+    line-height: 0;
+    color: #FAFAFA;
+    font-family: Arial;
+    font-size: 39px;
+    font-weight: 100;
+    padding: 28px;
+    background-color: #3D94F6;
+    -webkit-box-shadow: -9px 1px 20px 0 #000000;
+    -moz-box-shadow: -9px 1px 20px 0 #000000;
+    box-shadow: -9px 1px 20px 0 #000000;
+    text-shadow: 10px 1px 20px #000000;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_QYF:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+

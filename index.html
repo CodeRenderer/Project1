@@ -1,46 +1,55 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <script src="js/data.js" type="text/javascript" defer></script>
-    <link rel="stylesheet" href="css/buttonstyle.css">
-    <link rel="stylesheet" href="css/textstyle.css">
 
-    <style>
-        h1 {text-align: center;}
-        p {text-align: center;}
-        div {text-align: center;}
-        </style>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <script type = "text/javascript">  
-      function dataPrint() {  
-          alert("You are Successfully Called the JavaScript function");  
-      }  
-    </script>  
+  <script src="js/data.js" type="text/javascript" defer></script>
+
+  <link rel="stylesheet" href="css/buttonstyle.css">
+  <link rel="stylesheet" href="css/textstyle.css">
+
+
+  <script src="js/script.js"></script>
 
 
 
-  </head>
-  <body background="images/bg4.jpg">
-    
-    <div class="css-3d-text">Learn By example</div>
-    
-    <br>
-    <br>
-    <br>
-    <br>
+</head>
+
+<body>
+
+  <div class="css-3d-text">Code Renderer</div>
+
+  <br>
+  <br>
+  <br>
+  <br>
 
 
+  <button onclick="loadHTML('keywords/keywordAnd.py')" class="BUTTON_QYF">
+    AND
+  </button>
+  <button onclick="loadHTML('keywords/keywordFalse.py')" class="BUTTON_QYF">
+    False
+  </button>
+  <button onclick="loadHTML('keywords/keywordNone.py')" class="BUTTON_QYF">
+    None
+  </button>
+  <button onclick="loadHTML('keywords/keywordtrue.py')" class="BUTTON_QYF">
+    False
+  </button>
 
-    <a href="https://www.google.com" class="BUTTON_QYF">Python</a>
-    <a href="#" class="BUTTON_QYF">c#</a>
-    <a href="#" class="BUTTON_QYF">HTML</a>
-    <a href="#" class="BUTTON_QYF">CSS</a>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div id="homePage" style = "border-width:3px; border-style:double;display: inline-block">
+    <p >The content from Home Page will be displayed here</p>
+  </div>
 
 
-
-  </body>
+</body>
 <html>

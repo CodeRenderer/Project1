@@ -12,3 +12,24 @@
                  -6px 6px 1px rgba(0,0,0,0.5),
                  0px 0px 5px rgba(0,0,0,.2);
  }
+
+ .css-normal-text{
+    background: #1625FA;
+    background: linear-gradient(to right, #1625FA 0%, #2424FF 0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: large;
+    font-size: 52px;
+    font-family:'Trebuchet MS', Helvetica, sans-serif;
+    text-align: center;
+    
+ }
+
+ #menu {
+   overflow-y: scroll;
+   width:200px;
+   background: #FFFFFF;
+   float:left;
+   height: 100%;  
+   
+   }
